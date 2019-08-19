@@ -1,8 +1,8 @@
 {
-  "name": "node12-template-action",
+  "name": "setup-gcloud",
   "version": "0.0.0",
   "private": true,
-  "description": "Node 12 template action",
+  "description": "Setup GCloud CLI",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/node12-template.git"
+    "url": "git+https://github.com/mango-chutney/mango-actions.git"
   },
   "keywords": [
     "actions",

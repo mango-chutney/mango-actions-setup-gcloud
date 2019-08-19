@@ -1,9 +1,17 @@
-# JavaScript Action Template
+# Setup Gcloud
 
-This template offers an easy way to get started writing a javascript action with TypeScript compile time support, unit testing with Jest and using the GitHub Actions Toolkit.
+Very simple javascript action for setting up google cloud CLI `gcloud` command
 
-## Getting Started
+## Options
 
-See the walkthrough located [here](https://github.com/actions/toolkit/blob/master/docs/javascript-action.md).
+#### Channel
 
-In addition to walking your through how to create an action, it also provides strategies for versioning, releasing and referencing your actions.
+What snap channel to use, Default: `stable`
+
+## Example
+
+```
+  - uses: mango-chutney/mango-actions-setup-gcloud@v1
+    with:
+      channel: 'stable'
+```
