@@ -5,6 +5,9 @@ inputs:
   gcloud_channel:
     description: 'What GCloud snap channel to use'
     default: 'stable'
+  service_account:
+    description: 'Service account to be used to active gcloud cli'
+    default: ''
 runs:
   using: 'node12'
   main: 'lib/main.js'
