@@ -2,9 +2,9 @@ name: 'Setup GCloud'
 description: 'Setup Google Cloud Commands'
 author: 'Mango Chutney'
 inputs:
-  gcloud_channel:
-    description: 'What GCloud snap channel to use'
-    default: 'stable'
+  upgrade:
+    description: 'Either to upgrade gcloud to lastest or not'
+    default: 'no'
   service_account:
     description: 'Service account to be used to active gcloud cli'
     default: ''
